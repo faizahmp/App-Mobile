@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitef7"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+             <TextView
+                android:id="@+id/txtWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="40dp"
+                 android:paddingRight="40dp"
+                android:paddingTop="10dp"
+                android:text="Selamat Datang,"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtcoba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="40dp"
+                android:paddingRight="90dp"
+                android:paddingBottom="5dp"
+                android:text="Main Menu"
+                android:textColor="@color/black"
+                android:textSize="40sp"></TextView>
+
+            <TextView
+                android:id="@+id/txtWelcome1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
+                android:paddingLeft="40dp"
+                android:paddingTop="10dp"
+                android:text="Silahkan pilih kategori"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="4"
+            android:columnCount="2"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:columnOrderPreserved="false">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="27dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <Button
+                        android:layout_width="115dp"
+                        android:layout_height="115dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textAllCaps="false"
+                        android:textSize="13sp"
+                        android:background="@drawable/pylogo"
+                        android:textColor="@color/black"
+                        android:id="@+id/btn1">
+                    </Button>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Pengenalan Python"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="27dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="115dp"
+                        android:layout_height="115dp"
+                        android:background="@drawable/java_logo"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"></Button>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Pengenalan Java"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="27dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <Button
+                        android:layout_width="115dp"
+                        android:layout_height="115dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textAllCaps="false"
+                        android:textSize="13sp"
+                        android:background="@drawable/jss"
+                        android:textColor="@color/black"
+                        android:id="@+id/btn3">
+                    </Button>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Pengenalan JavaScript"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="27dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <Button
+                        android:layout_width="115dp"
+                        android:layout_height="115dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textAllCaps="false"
+                        android:textSize="13sp"
+                        android:background="@drawable/android_studio_logo"
+                        android:textColor="@color/black"
+                        android:id="@+id/btn4">
+                    </Button>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textSize="10sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Tutorial Android Studio"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/input_bg"
+                android:text="logout"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteY="114dp"
+                ></Button>
+    </LinearLayout>
+</ScrollView>

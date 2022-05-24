@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyekmobile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyekmobile">
+        <activity
+            android:name=".Activity_4_3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_4_2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_4_1"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_3_4"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_3_3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_3_2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_3_1"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_2_4"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_2_3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_2_2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_1_4"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_1_3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_1_2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_2_1"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_1"
+            android:exported="false" />
+        <activity
+            android:name=".Activity3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity4"
+            android:exported="false" />
+        <activity
+            android:name=".Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:label="register" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
