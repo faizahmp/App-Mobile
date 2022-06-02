@@ -13,6 +13,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.proyekmobile.databinding.ActivityMainBinding;
 import com.google.firebase.auth.FirebaseAuth;
@@ -92,13 +93,13 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
-
-
-
-
-
-
-
     }
-
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
 }
+

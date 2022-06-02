@@ -2,8 +2,10 @@ package com.example.proyekmobile;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -14,6 +16,9 @@ public class Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_);
+        //ActionBar actionBar = getActionBar();
+        //actionBar.setDisplayHomeAsUpEnabled(true);
+
 
         btn1_1 = findViewById(R.id.btn1_1);
         btn1_1.setOnClickListener(new View.OnClickListener() {
@@ -54,6 +59,5 @@ public class Activity extends AppCompatActivity {
                 finish();
             }
         });
-
     }
 }

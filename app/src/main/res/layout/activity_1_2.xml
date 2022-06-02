@@ -1,9 +1,325 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_1_2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.1 Pengenalan Variable"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="15sp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nVariable adalah tempat menyimpan data data disimpan dalam kepingan kecil memori selama program dieksekusi. Sebuah variabel pada python dapat menyimpan berbagai macam tipe data, dan dapat diubah sesuai jenis tipe datanya. Karena sifatnya dinamis, variabel tidak perlu dideklarasikan sebagai tipe data tertentu, karena secara otomatis python dapat mengenali tipe data dalam variabel itu. Syarat penulisan variabel pada python.
+                \n 1. Variabel harus dimulai menggunakan huruf atau underscore (_) tidak boleh diawali dengan angka.
+                \n\n 2. Selanjutnya dapat diikuti dengan underscore (_) dan boleh menggunakan angka, tapi tidak boleh menggunakan spasi serta tidak boleh juga dash (-).
+                \n\n 3. Bersifat case-sensitive, maksudnya variabel namaVariabel berbeda dengan namavariabel. Jadi kapitalisasi besar dan kecil dianggap berbeda.
+                \n\n 4. Menulis variabel dimulai dengan nama variable dan diikuti dengan tanda sama dengan (=) setelahnya adalah nilai (isi variabel) dimaksud.
+                \n\n 5. Nama variabel juga tidak boleh menggunakan kata yang sudah ada dalam python seperti if, try, while, for, dan sebagainya."
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp">
+            </TextView>
+            <TextView
+                android:paddingTop="14dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contoh Penggunaan Variabel ">
+            </TextView>
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBerikut adalah contoh menggunakan variabel dalam bahasa python : ">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-35dp"
+                android:src="@drawable/python_2_1_1">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="Coba perhatikan pada variabel NomorHP yang pertama dan yang kedua, perbedaan pengisian nilainya untuk angka tidak menggunakan tanda petik dan variable yang selain angka menggunakan tunggal (‘ ’) atau bisa juga menggunakan tanda petik dua (“ “). Jika nilai variabel angka menggunakan tanda petik maka itu dianggap bukan angka melainkan sebuah string Dalam penggunaan lain kita bisa mencetak isi variabel dengan satu kali print:"
+                android:textSize="10sp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_1_2"
+                android:layout_marginTop="-5dp">
+            </ImageView>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="Baris ketiga perintah print kita menggabungkan nilai dengan tanda (+) yang outputnya akan berupa Edi Kartono ini disebut Concatination sedangkan penggunan tanda petik itu untuk memberikan spasi. Namun akan berbeda jika kita menggabungkan variable yang berisi angka. Mari kita lihat.">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_1_3">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="Ketika variabel yang berisi angka, maka akan dijumlahkan dan outputnya menjadi 7, bukan 34. Tapi akan berbeda jika variabel a dan b menggunakan tanda petik dalam nilainya."
+                android:layout_marginTop="-5dp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_1_4">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="Hasilnya menjadi 34, bukan 7. Ini disebabkan python menganggap itu buka angka melainkan string."
+                android:layout_marginTop="-5dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n2.2 Tipe Data"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="15sp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n· Integer: bilangan bulat, 123, 1, 4
+                \n· Desimal (float) bilangan yang memiliki koma: 0.9, 99.8, dan lainnya
+                \n· Bolean penyataan benar dan salah. Nilainya True atau False
+                \n· String, bisa berupa kalimat, huruf, atau angaka, dan gabungan huruf dan angka yang berada dalam tanda petik (‘ ’) atau (“ “). Meskipun itu angka jika didalam tanda petik maka dianggap string. Seperti yang sudah dicontohkan di atas: ‘3’, ‘ini string’, “string juga”.
+                \n· Hexadicimal, bilangan 16: 0x atau 0X
+                \n· Complex, bilangan real dan imajiner: 1 + 98j.
+                \n· List, Data yang berisi gabungan tipe data dan bisa dubah, cirinya adalah menggunakan kurung kotak [ ]: [‘data satu’, 432, 3.3, ‘abc’].
+                \n· Tuple, Data yang berisi gabungan tipe data dan tidak bisa diubah, cirinya adalah menggunakan kurung ( ): (‘xds’, 123, 5.3).
+                \n· Dictionary, Berisi macam tipe data yang berpasangan key dan value, menggunakan kurung kurawal { }: {‘nama’:’Edi’, ‘umur’:34, ‘alamat’:’nomaden’}
+                "
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp">
+            </TextView>
+            <TextView
+                android:paddingTop="14dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menampilkan data pada python">
+            </TextView>
+            <TextView
+                android:paddingTop="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="Menampilkan seluruh data pada list">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_1">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="Untuk menampilkan data tertentu pada list, misal saya ingin mengambil data pertama dari variabel e. Isi data dari list dipisahkan dengan koma (,) yang bisa dipotong berupa index. Menghtung index pertama dimulai dari angka 0. Mengambil data pada index pertama dari list."
+                android:textSize="10sp"
+                >
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_2">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Mengambil data pada 1 sampai 2"
+                android:textColor="@color/black"
+                android:textSize="10sp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_3">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mengedit List Cara mudah untuk mengedit nilai pada list adalah variable[index yang akan diubah] = nilai baru. Dalam contoh ini saya ingin mengedit data pada index ke dua dari list."
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_marginTop="-10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_4">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menambah Data List Kita juga bisa menambah data index di List dengan menggunakan append, variabel.append(‘data baru’)"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_marginTop="-10dp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_5">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah bertambah satu data baru yaitu Durian. Bagaimana jika ingin menghapus? cukup dengan del variabel[index yang mau dihapus]. Misal saya ingin menghapus index pertama."
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_6">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihatlah, begitu mudahnya kita memanipulasi data list. Hal lainnya yang bisa dilakukan pada List
+                \n· Length: print(len(e))
+                \n· Contatenation: print(e+z)
+                \n· Max: print(max(e)) untuk data list yang sama jenisnya.
+                \n\n\nTIPE DATA TUPLE hampir sama seperti list, hanya tidak bisa edit saja. TIPE DATA DICT datanya berisi key dan value dipisahkan titik dua (:) dan setiap item dipisahkan koma (,) Nilai pada dict bisa berupa data apapun, tapi key tidak bisa diubah. Untuk menampilkan seluruh data dict caranya sama"
+                android:fontFamily="@font/poppins"
+                android:textSize="10sp"
+                android:textColor="@color/black">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_7">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana jika saya ingin menampilkan hanya value nama saja?"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_8">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menampilkan key dan value menggunakan for"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_9"
+                android:layout_marginTop="-10dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berbeda dengan print(g) di atas Mengubah value tertentu. Misal saya mengubah umur menjadi 30. Caranya variabel[‘key’]=value baru"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_marginTop="-10dp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_10">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menambahkan entri baru. Saya ingin menambah entri baru pada Dict yang sudah ada cekup dengan variabel['key baru'] = 'value baru'"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_11"
+                android:layout_marginTop="-10dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saya sudah menambahkan dua entry baru pada Dict tapi karena alasan tertentu saya ingin menghapus data pada dict yaitu kampus."
+                android:fontFamily="@font/poppins"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="-10dp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_2_2_12">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

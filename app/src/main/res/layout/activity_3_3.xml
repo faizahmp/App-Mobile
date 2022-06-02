@@ -1,9 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_3_3">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.1 Percabangan"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.1.1 If"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="if (kondisi)&#123;\n pernyataan&#125;"
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/javascript_3_1_1_1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Dapat dilihat pada contoh di atas variabel a kita tetapkan nilainya adalah 10. Kemudian percabangan if akan mengecek kondisi apakah a==10 ? kondisi ini bernilai benar (true) sehingga perintah document.write(&quot;Variabel a berisini nilai 10&quot;) akan di eksekusi."
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.1.2 If Else"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Blok else memungkinkan program untuk menjalankan pernyataan alternatif jika kondisi bernilai salah (false). Contoh:"
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/javascript_3_1_2_1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="variabel nilai di beri nilai 10, percabangan if akan mengecek kondisi apakah nilai>=60 ? salah sehingga perintah pada blok else lah yang di eksekusi dengan menampilkan kalimat Maaf kamu gagal!."
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.1.3 Percabangan Else If"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Jika pada bentuk pecabangan IF hanya memikiki satu kondisi. Pada bentuk percabangan Else if mempunyai lebih dari satu kondisi. Contoh:"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/javascript_3_1_3_1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Contoh di atas pengguna akan di minta memasukan hobi, ada 3 kondisi yang saya definisikan yaitu hobi membaca, olahraga."
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.1.4 Percabangan Bersarang"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Bentuk selanjutnya adalah nested if atau sering disebut percabangan bersarang. percabangan ini merupakan bentuk yang lebih kompleks dimana terdapat percabangan di dalam percabangan lain. Contoh:"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/javascript_3_1_4_1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.1.5 Switch Case"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Switch case merupakan struktur pemilihan yang bekerja dengan cara membandingkan suatu nilai pada setiap case yang ada. Dengan demikian akan menghasilkan banyak kemungkinan dari nilai yang di bandingkan."
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/javascript_3_1_5_1"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="\nPengguna akan diminta memasukan grade nilai lewat perintah prompt dan di tampung pada variabel grade.
+\nKemudian nilai grade akan di bandingkan pada setiap case yang terdapat dalam pemilihan switch. Jika ada case yang sama dengan grade nilai yang dimasukan maka bobot nilai akan ditetapkan sesuai dengan grade masing-masing. Jika grade nilai yang dimasukan tidak sama dengan setiap case yang ada maka perintah default akan di jalankan dengan menetapkan bobot=0.
+\n\nBobot nilai = 3
+\nDapat dilihat dari contoh output diatas, saya memasukan grade nilai B dan program akan menampilkan bobot nilai 3, sesuai dengan case yang kita tetapkan.
+\n\nBobot nilai = 0
+\nPada contoh output yang kedua saya memasukan grade nilai E, memang di dalam pemilihan switch saya tidak membuat case 'E' karena dianggap memiliki bobot 0 maka bagian default yang dijalankan. Selain karakter dimasukan A,B,C,D bobot nilai yang ditetapkan pasti adalah 0."
+                android:textSize="10sp"></TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.2 Perulangan"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.2.1 For"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Penggunaan perulangan for di peruntukan ketika sudah diketahui berapa kali jumlah perulangan yang harus dilakukan berdasarkan kondisi yang ditetapkan. Contoh:"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/javascript_3_2_1_1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Dapat dilihat dari contoh diatas perulangan for dilakukan sebanyak 5 kali dari 1 sampai 5 sesuai dengan nilai awal yang ditetapkan yaitu i=1 dengan kondisi i &#x2264; 5. Ketika kondisi bernilai benar maka nilai i akan ditambahkan 1 (i++) proses ini dinamakan increment."
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.2.2 While"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Perulangan while pada dasarnya digunakan untuk perulangan yang belum diketahui berapa kali perulangan akan dilakukan. Contoh:"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/javascript_3_2_2_1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Kondisi yang kita tetapkan pada perulangan while adalah jika nilai variabel kata tidak sama dengan AKU maka perintah prompt untuk memasukan kata akan terus di ulang. begitu juga dengan nilai counter akan ditambahkan 1 setiap iterasi. Perulangan akan berhenti ketika nilai yang dimasukan adalah AKU."
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.2.3 Do While"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Perulangan do while akan melakukan perulangan minimal satu kali kemudian barulah di cek kondisinya. Contoh:"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/javascript_3_2_3_1">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="\nPerhatikan program perulangan do while diatas, seperti yang saya katakan bahwa perulangan do while akan mengerjakan minimal 1 kali baru kemudian di cek kondisinya.
+\nPerulangan akan dilakukan jika kondisi bernilai benar, perulangan akan berhenti jika kondisi salah.
+\nPada contoh program diatas awalnya nilai i adalah 1 kemudian program akan mencetak perulangan do while ke- i (dalam hal ini ke-1) kemudian nilai i ditambahkan i++ atau kita kenal dengan decrement. Sekarang nilai i adalah 2 kemudian di cek apakah 2 sama dengan 1 ? jawabannya tidak berarti kondisi bernilai false sehingga dengan demikian proses perulangan do while akan berhenti."
+                android:textSize="10sp"></TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

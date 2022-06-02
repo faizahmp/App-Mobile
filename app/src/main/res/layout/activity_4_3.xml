@@ -1,9 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_4_3">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="03 Membuat Projek dan Struktur Folder"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Pada tutorial kali ini kita akan memulai membuat Aplikasi pertama. Jika kamu baru pertama membuka IDE Android Studio maka yang pertama kali muncul yaitu halaman seperti di bawah ini."
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="\n1.Untuk membuat Aplikasi pertama maka pilih Start a new Android Studio project.
+                \n2.Selanjutnya akan muncul jendela New Project. Pada bagian ini kalian isi beberapa isian yang diperlukan. Lebih jelasnya silahkan lihat gambar di bawah ini."
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/android_studio_11"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.Setelah mengisi semua isian yang dibutuhkan maka klik saja Next. Dan selanjutnya akan diarahkan ke jendela baru Target Android Device.
+                \n4.Pada bagian ini kalian akan disarankan untuk memilih minimum SDK. Secara default minimum SDK menggunakan API 32: Android 9.0. Pada Android Studio kalian tidak hanya dapat membuat aplikasi untuk mobile saja tetapi kalian juga bisa membuat aplikasi Android untuk Smart TV dan juga perangkat Wearable seperti Jam dan Google Glass. Jika sudah klik saja Next.
+                \n5.Setelah di klik Next maka akan terbuka jendela baru yaitu Add an Activity to Mobile. Silahkan klik Empty Activity. Jika sudah klik Next.
+                \n6.Selanjutnya akan diarahkan ke jendela baru yaitu Customize the Activity.
+                \nActivity Name : Digunakan untuk memberi nama pada File Java.
+                \nLayout Name : Digunakan untuk memberi nama File Layout dari Aplikasi yang akan kita bangun atau file xml nya. Pada bagian ini usahakan uruf pertamanya menggunakan huruf kecil."
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/android_studio_12"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="1.Merupakan bagian dari susunan folder project Android Studio (Lebih jelasnya nanti kita akan bahasa di bawah).
+                \n2.Merupakan bagian dari Palette yang berisi beberapa tools atau component yang bisa kita gunakan untuk memberi tampilan pada aplikasi yang akan kita bangun.
+                \n3.Merupakan Component Tree yang memiliki fungsi menampilkan Layout dan susunan dari komponen yang telah kita gunakan di Bagian 4.
+                \n4.Merupakan bagian bidang utama yang digunakan untuk meletakkan Component yang ingin kita gunakan. Tampilannya seperti tampilan layar pada Mobile Android.
+                \n5.Merupakan bagian Properties, bagian ini akan menampilkan semua informasi dari Component yang kita pilih seperti nama id, ukuran/Size, Font, background, color, dan lain sebagainya.
+                \nSelanjutnya mari kita lihat bagian Struktur Folder dari Android Studio."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/android_studio_13"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="1.Pada bagian pertama terdapat folder yang bernama Manifest, di dalam folder Manifest tersebut terdapat file AndroidManifest.xml.
+                \nFile AndroidManifest.xml berisis informasi tentang package (paket) pada project yang kita bangun. Jadi file ini memuat komponen aplikasi seperti Activity, Services, Content, dan lain sebagainya.
+                \nJika kita membuat Activity baru maka akan terdapat di file ini, jika tidak maka periksa kembali, dan jika kita ingin membuat aplikasi yang membuatuhkan koneksi Internet, kita diharuskan mengisi User Permission di File ini, menggant judul, icon, dan lain sebagainya.
+                \n\n2.Pada bagian kedua terdapat foler Java yang di dalamnya terdapat folder bernama seperti domain yang kita isikan pada pertama kali membuat aplikasi, pada contoh tutorial ini diatas kita membuatnya dengan nama (com.kodingindonesia.aplikasipertama), di dalam folder tersebut terdapat file NameActivity.java, jika nama Activity tidak dirubah maka secara default bernama MainActivity.java , pada bagian file ini lah kita akan membuat program Java untuk aplikasi yang akan kita buat.
+                \n\n3.Pada bagian ketiga ini terdapat folder drawable, folder drawable ini merupakan bagian dari folder resource. Folder drawable ini digunakan untuk menyimpan file gambar dengan format .jpg atau .png yang kita gunakan pada aplikasi yang akan kita bangun
+                \n\n4.Pada bagian keempat ini terdapat file bernama layout_name.xml, secara default jika kita tidak rubah saat pertama maka namanya adalah activity_main.xml. file layout_name.xml ini terdapat di folder layout yang merupakan bagian dari folder resource. Pada file ini lah kita akan membaut tampilan atau User Interface untuk aplikasi yang akan kita  bangun.
+                \n\n5.Pada bagian kelima terdapat beberapa icon launcher aplikasi yang bernama ic_launcher. Icon ini terdapat pada folder mipmap yang merupakan bagian dari folder resource.
+                \n\n6.Pada bagian keenam ini terdapat beberapa file antara lain :
+                \n· String.xml yang merupakan file berisi resource data-data text yang akan kita gunakan sebagai komponen aplikasi.
+                \n· Style.xml yang merupakan file berisi resource tentang tema seperti Toolbar, yang akan kita gunakan untuk komponen aplikasi nantinya.
+                \n· Color.xml yang merupakan file berisi resource warna-warna dari file Style.xml
+                \nSemua file-file tersebut terdapat di folder values yang merupakan bagian dari foler resource.
+                \n\n7.Pada bagian ketujuh terdapat Gradle. Gradle ini merupakan tools untul build yang digunakan pada Android Studio, untuk Compile, Run project Aplikasi yang akan kita bangun. Jika kalian pernah menggunakan Eclipse kalian tidak akan menemukan build tools Gradle, karena Eclipse menggunakan build tools Ant."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,9 +1,354 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_2_2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="40dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="2.1 Percabangan"
+                android:textSize="15sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="\nPercabangan adalah suatu pilihan atau opsi dengan kondisi tertentu. Jika kondisi yang menjadi syarat terpenuhi, maka opsi atau pilihan dijalankan, jika tidak maka sebaliknya. Dalam java terdapat 4 macam jenis percabangan, if, if-else, else-if, dan juga switch. Keempat jenis ini memiliki penggunaan masing-masing. Berikut penjelasan mengenai penggunaan tiap-tiap percabangan :
+                \n\n· if : Percabangan if ini digunakan jika kita hanya memiliki satu pernyaatan yang akan dijalankan dengan syarat tertentu.
+                \n\nContoh :">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_1_1">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="\nOutput : Program akan menampilkan  nilai a = 0 saja, karena pada if yang kedua, kondisi tidak memenuhi atau salah.
+\n\n· if else : Percabangan if else digunakan saat kita memiliki dua pernyataan dengan syarat tertentu.
+\n\nContoh :">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_1_2">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="\nOutput : program akan menampilkan nilai a = 0, karena kondisi if bernilai benar, jika pada inisialisasi nilai a tidak bernilai 0, maka program akan menampilkan nilai a = 1.
+                \n\n· else -if : percabangan yang digunakan saat kita memiliki banyak kondisi (lebih dari 2) dan banyak pernyataan (lebih dari 2).
+                \n\nContoh :">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_1_3">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="Output : Program akan menampilkan  nilai a = 2 saja, karena pada  else-if yang ketiga atau dengan pernyataan a==2 bernilai benar, sedangkan pernyataan yang lain tidak dijalankan karena kondisi tidak memenuhi.
+                \n\n· switch-case : percabangan yang digunakan saat kita memiliki banyak kondisi (lebih dari 2) dan banyak pernyataan (ledbih dari 2). Sebenarnya switch-case ini hampir sama dengan else if, hanya saja sintaksnya yang berbeda.
+                \n\nContoh :">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_1_4">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Output : Program akan menampilkan  nilai a = 2 saja, karena kondisi bernilai benar, perhatika break dibelakang pernyataan, jika break ini dihapus, maka semua pernyataan akan dijalankan. Break digunakan untuk keluar dari switch-case saat 1 pernyataan sudah dijalankan."
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="2.2 Perulangan"
+                android:textSize="15sp"
+                android:paddingTop="14dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="\nLooping atau bahasa indonesianya adalah pengulangan, yang dimaksud pengulangan disini merupakan pengulangan suatu program yang berakhir hingga suatu nilai yang telah ditentukan. Misalnya, suatu program akan terus berulang jika suatu variabel belum sampai dengan nilai TRUE atau FALSE atau kondisi tertentu.">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\nFor">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nFor adalah pernyataan pengulangan yang dikhususkan untuk pengulangan yang secara tepat mengetahui berapa kali pengulangan akan terjadi.
+                \n\nContoh program :"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2__1">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="Output :"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2_2"
+                android:layout_marginTop="-44dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penjelasan program :
+                \n\nDiatas merupakan program pengulangan dengan FOR, perintah pengulangam FOR akan terus dijalankan selama kondisi masih TRUE. Jadi proses kerjanya, mengecek terlebih dahulu kondisi (apakah masih TRUE ?) jika dalam kondisi TRUE, maka program diteruskan atau dilanjutkan. Sebagai contoh &quot;i=1; ilt11; i++&quot; , artinya program akan terus mengulang sampai dengan i=10. Maka jika dicetak dengan printah &quot;system.out.println&quot; akan mencetak 10 baris (angka 1 sampai dengan angka 10)."
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="-44dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\nWhile">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nWhile digunakan untuk melakukan proses pengulangan suatu blok pernyataan selama kondisinya bernilai TRUE, hampir sama seperti pada FOR. Ketika kondisi FALSE, pernyataan dalam blok bisa saja tidak dijalankan sama sekali.
+                \n\nContoh program :"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2_3"
+                android:layout_marginTop="5dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="Output Program :"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="5dp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2_4"
+                android:layout_marginTop="-44dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penjelasan program :
+                \n\nDiatas merupakan program pengulangan menggunakan perintah WHILE. WHILE hampir sama dengan FOR, yaitu program akan terus dijalankan selama jika dalam kondisi TRUE. Jika dalam kondisi FALSE, program bisa saja tidak dijalankan."
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="-44dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\nDo While">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nDo While digunakan untuk melakukan proses pengulangan suatu blok pernyataan selama kondisinya bernilai TRUE. Pernyataan dalam blok paling tidak dieksekusi satu kali.
+                \n\nContoh program :"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2_5">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="Output Program :"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="5dp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2_6"
+                android:layout_marginTop="-44dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penjelasan program :
+                \n\nDiatas merupakan program pengulangan dengan menggunakan perintah &quot;Do While&quot; . Proses kerja pengulangan FOR dengan Do While itu berbeda, jika didalam FOR pengecekkan kondisinya diawal, sedangkan dalam Do While pengecekkan kondisinya diakhir."
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="-44dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\nBreak dalam pengulangan">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBreak dalam program looping fungsinya untuk menghentikan program pengulangan. Maka dari itu, break ini sangat berguna sekali.
+                \n\nContoh program :"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2_7">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="Output Program :"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="5dp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2_8"
+                android:layout_marginTop="14dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPenjelasan program :
+                \n\nDiatas merupakan program pengulangan dengan tambahan perintah &quot;break&quot;. Break didalam program tersebut, artinya memberhentikan program pengulangan yang berlanjut. Contohnya dalam program tersebut, program melakukan pengulangan hingga i lt 11 (sampai 10). Akan tetapi, ada perintah lain yaitu &quot;if(i ==5) break;&quot; artinya jika i sudah bernilai 5, maka program berhenti. Outputnya juga menghasilkan 4 baris (1 – 4), karena angka 5 merupakan titik berhenti program."
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\nContinue dalam pengulangan">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nContinue merupakan syntax program yang digunakan untuk melanjutkan program yang sudah berhenti atau dalam status break. Syntax continue bisa disatukan dengan break
+                \n\nContoh program :"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2_9">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="Output Program :"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="5dp">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_2_2_10"
+                android:layout_marginTop="-44dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPenjelasan program :
+                \n\nDiatas merupakan perogram pengulangan dengan penambahan perintah continue didalam pengulangan tersebut. Perintah continue artinya melanjutkan program. Sebelumnya dalam program tersebut melakukan pengulangan nilai i =1 sampai dengan kurang dari 11 (i lt 11). Dalam program tersebut ada perintah “if(i == 5) continue” artinya jika i = 5, program dilanjutkan, akan tetapi jika dicetak (print) angka 5 tidak akan muncul."
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="-44dp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

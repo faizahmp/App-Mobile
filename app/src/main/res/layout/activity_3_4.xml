@@ -1,9 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_3_4">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.1 Mendefinisikan Fungsi"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="\nfunction namaFungsi(//parantheses yang isinya argument untuk ditampilkan ke konsol)&#123;return 5*5; // kode yang akan dieksekusi&#125;"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_1_1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Tapi contoh diatas kurang optimal kalau fungsi cuman digunakan buat print satu baris jadi kita bisa buat fungsi buat menrima dan memanfaatkan parameter untuk mengubah action fungsinya. Contohnya sebgai berikut:"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_1_2"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Function juga bisa ngehadilin output dengan mengembalikan nilai, dengan nilai kembalian atau return kita bisa lakukan untuk perhitungan matematika, bisa juga return string,object, array, boolean, atau tipe lain."
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.1.1 Fungsi ekspresi "
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Kode yang mengembalikan nilai sehingga function bisa disimpan dalam sebuah variabel, misalnya begini: "
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_1_1_1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.1.2 Fungsi Parameter "
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="parameter: variabel yg didefinisikan sebagai inputan dari sebuah fungsi.kalau parameter dari fungsi sebuah object bisa kita pakai destructuring object buat dapatkan nilainya"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_1_2_1"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.1.3 Default Parameter"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Di JS tidak dilakukan cek jumlah tipe argumen yg dimasukkan, artinya bisa kita masukkan argumen meski tidak sesuai jumlah parameter"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_1_2_2"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.1.4 Rest Parameter"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Kalau spread operator menyebarkan array menjadi beberapa elemen seperti ini ditulis dengan tiga titik (...)"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_1_4_1"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Kalau Rest Parameter itu kebalikannya ditulis pakai tiga titik juga (...). Rest parameter menggabungkan beberapa elemen jadi satu array, berguna untuk membuat sebuah fungsi dengan parameter yg tidak pasti"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_1_4_2"></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.2 Variable Scope"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Ada banyak keadaan dimana kita butuhin variable untuk bisa diakses pada fungsi dan turunan fungsinya saja
+\n- variabel yg bisa diakses d seluruh script == globally scoped
+\n- variabel yg diakses pada fungsi tertentu == locally scoped
+// global variable, dapat diakses pada parent() dan child()
+const a = &apos; a &apos;"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_2_1"></ImageView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_2_2"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Contoh diatas misal kita ingin si total tuh 9 tapi karena kita deklarasiin dia di luar fungsi jadinya variabel global (bisa diakses d semua script dan tidak ditetapkan total=9). kalau misal lupa kasih const atau let diawal ini bisa jd var global juga d dalam fungsi."
+                android:textSize="10sp"></TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.3 Closure"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Suatu fungsi yg bisa akses variabel di dalam lexical scopenya disebut == closure. Lexical scope == fungsi bersarang, fungsi yg berada d dalam memiliki akses ke variabel di lingkup induknya"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_3_1"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text=" var name ada di scope init() jadi var tersebut akan hilang atau dihapusketika fungsinya selesai dijalankan tapi fungsi greet() diakses dari MyFunction() sehinggamasih punya akses ke variable name. Pada kenyataan closure dinyatakan untuk private method (tapi karena di js tidak ada ada, gunakan ini salah satunya), misal:"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/javascript_4_3_2"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Nilai add bertambah kalau kita panggil add() tapi bisa juga ubah nilai counter pakai assignment operator, sebaiknya dihindari karena bug."
+                android:textSize="10sp"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

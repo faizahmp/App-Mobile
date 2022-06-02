@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_2_1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="40dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="1.1 Sejarah Java"
+                android:textSize="15sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="\nJava dikembangkan pada tahun 1990 oleh insinyur Sun, James Gosling sebagai bahasa pemrograman yang  berperan sebagai otak untuk peralatan pintar (TV interaktif, oven serba bisa). Gosling tidak puas dengan hasil yang ia peroleh ketika menulis program dengan C++, bahasa pemrograman lain, sehingga ia mengasingkan diri di kantornya dan menulis bahasa pemrograman baru agar lebih sesuai dengan kebutuhannya.
+                \n\nGosling menamakan bahasa pemograman barunya Oak, nama sebuah pohon yang bisa ia lihat dari jendela kantornya; ia kemudian menamainya Green, dan kemudian mengganti namanya menjadi Java, berasal dari kopi Jawa (Java Coffee) , yang katanya banyak dikonsumsi dalam jumlah besar oleh pencipta bahasa ini. Bahasa pemograman ini kemudian menjadi bagian dari strategi Sun untuk menghasilkan uang jutaan dolar ketika TV interaktif menjadi industri bernilai jutaan dolar. Hal itu memang masih belum terjadi hari ini, tetapi sesuatu yang benar-benar berbeda kemudian terjadi pada bahasa pemograman baru Gosling itu.
+                \n\nSecara kebetulan World Wide Web menjadi begitu populer, banyak kelebihan yang membuat bahasa Gosling dapat digunakan dengan baik dan cocok pada proyek maupun alat untuk adaptasi ke Web. Pengembang Sun merancang cara bagi program yang akan berjalan dengan aman dari halaman web dan memilih nama baru yang menarik untuk menemani fokus baru bahasa itu: Java.">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

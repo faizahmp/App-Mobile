@@ -1,9 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_2_3">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="40dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.1 CRUD Pada Java"
+                android:textSize="15sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="\nCRUD adalah singkatan dari Create, Read, Update dan Delete. Operasi CRUD adalah operasi dasar untuk melakukan manipulasi data pada database. Kali ini kita akan membuat aplikasi penjualan tiket sederhana untuk melalukan semua operasi crud menggunakan bahasa pemrograman Java dan database MySQL.
+                \n\nLangkah awal :
+                \n\n· Membuat Database, Dalam pembuatan CRUD tidak dapat dipisahkan dari yang namanya database. Karna itu kita harus membuat database nya terlebih dahulu, kira-kira seperti ini database yang kita butuhkan.">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_1"
+                android:layout_marginTop="-70dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-65dp"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="Database yang akan digunakan
+                \n\n· Membuat projek java baru dengan cara buka aplikasi netbeans > new project > java > java application > finish
+                \n\n· Menambahkan sebuah jFrom pada projek java yang sudah di buat dengan cara klik kanan pada package project yang tadi kita buat > klik kanan > new > jForm > isi nama JForm > finish. Setelah jForm nya siap lalu kita buat desain form yang akan digunakan, kira — kira seperti ini
+                \n\nDesain Aplikasi Java"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_2"
+                android:layout_marginTop="-135dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-135dp"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="· Masukkan library MySQL JDBC Driver ke dalam project yang telah di buat. Dengan cara klik kanan pada library yang ada dalam projek > pilih add library > pilih mySQL JDBC Driver > klik add library
+                \n\n· Setelah library MySQL JDBC Driver berhasil dimasukkan, langkah selanjutnya adalah membuat koneksi database dengan cara menuliskan source code dibawah ini package nama_project"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_3"
+                android:layout_marginTop="-14dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-14dp"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="· Membuat dan menentukan variabel yang dibutuhkan, berikut ini adalah variabel yang dibutuhkn dalam pembuatan CRUD kali ini. Untuk lokasi penulisannya dapat diletakkan dibawah source code koneksi."
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_4"
+                android:layout_marginTop="5dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="· Memberikan pilihan pada masing — masing combo box yang tersedia dan di tuliskan pada block form, dengan menggunakan source code dibawah ini"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_5"
+                android:layout_marginTop="-20dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-14dp"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="· Menampilkan harga dari masing — masing item yang telah dipilih pada combo box (cmbTujuan)"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_6"
+                android:layout_marginTop="-20dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-24dp"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="· Menampilkan harga dari masing — masing item yang telah dipilih pada combo box (cmbKelas)"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_7"
+                android:layout_marginTop="-24dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-14dp"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="· Menampilkan harga dari masing — masing item yang telah dipilih pada combo box (cmbMenu)"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_8"
+                android:layout_marginTop="-14dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-14dp"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="· Menghitung total harga dari sebuah tiket dengan cara menuliskan source code dibawah ini pada button hitung"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_9"
+                android:layout_marginTop="-10dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="Membuat CRUD">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\n· Create atau Membuat Data, hal ini lebih familiar kita dengar dengan sebutan quotSIMPAN"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_10">
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_11">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\n· Update atau Edit, perintah ini berfungsi untuk merubah data yang sudah ada"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_12">
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_13">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\n· Delete atau hapus"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_14"
+                android:layout_marginTop="8dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\nLalu dimana Read nya? Untuk kasus satu ini ada sedikit perbedaan dengan yang lain jika operasi crud yang lain dituliskan source code nya didalam blok button tetapi untuk read kita harus membuat method baru sahabat. Jika method read [tampil] tidak ada maka data yang sudah dibuat tidak dapat ditampilkan pada jTable. Berikut ini adalah source code yang dapat digunakan pada method tampil."
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java_3_1_15"
+                android:layout_marginTop="-24dp">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -4,8 +4,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/aplikasi_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyekmobile">
@@ -29,9 +29,6 @@
             android:exported="false" />
         <activity
             android:name=".Activity_3_1"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_2_4"
             android:exported="false" />
         <activity
             android:name=".Activity_2_3"
@@ -73,7 +70,7 @@
         <activity
             android:name=".LoginActivity"
             android:exported="true"
-            android:label="login">
+            android:label="Belajar Pemrograman">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

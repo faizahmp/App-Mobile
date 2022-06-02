@@ -1,9 +1,184 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_4_1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="01 Cara Install JDK"
+                android:textSize="15sp"></TextView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/android_studio_logo"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Hal pertama yang perlu dan mungkin sangat penting untuk kita lakukan sebelum menjadi Android Developer adalah bagaimana caranya menginstall aplikasi Android Studio yang merupakan IDE resmi untuk membangun aplikasi Android berdasarkan Intelij IDEA.
+\nSebelum kita mulai menginstal aplikasi Android Studio, ada beberapa hal yang perlu kalian perhatikan, antara lain :"
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="\n1. Spesifikasi PC atau Laptop"
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Mungkin hal ini bisa menjadi salah satu penghambat bagi kalian yang ingin mengembangkan atau membangun aplikasi Android karena spesifikasi PC atau laptop yang diperlukan cukup tinggi. Berikut ini rekomendasi spesifikasi untuk instalasi aplikasi Android Studio:
+\n- Sistem Operasi : OS Windows 7/8 32 – 64 Bit, Linux, Mac
+\n- Prosesor : Minimal dual core, disarankan lebih
+\n- RAM : Minimum 4 GB, disarankan 8 GB
+\n- Ruang Drive : 1 GB lebih untuk Android SDK, Emulator, dan Cache
+\n- Resolusi Layar : 1280 X 800 Minimum
+\n- Java Development Kit : JDK 7/8"
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="\n2. Install Java Development Kit (JDK)"
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Setelah memastikan spesifikasi PC atau Laptop telah memenuhi, selanjutnya mari kita install aplikasi JDK.
+\nJava Development Kit atau yang biasa disingkat JDK merupakan Software yang digunakan untuk melakukan proses kompilasi dari Java Code ke bytecode.
+\nPada dasarnya Aplikasi Android ini dikembangkan menggunakan bahasa pemrograman Java. Oleh karena itu JDK menjadi sangat penting untuk diinstall ketika kita ingin membangun aplikasi Android."
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Bagaimana Cara Install?"
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Pada tutorial ini kita akan menggunakan JDK 8 agar dapat support dengan API 24 (Android Nougat). Berikut ini langkah-langkah untuk instalasi Software JDK."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="\n1. Download Software JDK"
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Pertama yang harus kalian lakukan sebelum menginstal JDK adalah mendownload software JDK 8 di website resminya.Selanjutnya scroll kebawah sampai menemukan versi Java SE Development Kit 8u102 (jdk-8u102-windows-x64.exe)."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/android_studio_1"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="\n2. Install Software JDK"
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Pertama yang harus kalian lakukan sebelum menginstal JDK adalah mendownload software JDK 8 di website resminya.Selanjutnya scroll kebawah sampai menemukan versi Java SE Development Kit 8u102 (jdk-8u102-windows-x64.exe)."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/android_studio_2"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Klik Next hingga masuk ke proses instalasi. Tunggu hingga proses instalasi selesai. Setelah selesai, klik Close untuk menutup proses instalasi. Setelah selesai instalasi, selanjutnya mari setting path JDK. Salin lokasi folder instalasi JDK."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/android_studio_3"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Selanjutnya klik kanan pada This PC gt  pilih Properties. Setelah itu akan muncul Window baru (System) dan pilih Advanced System Settings."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/android_studio_4"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Selanjutnya pilih Environment Variables. Pada bagian System Variables cari Path kemudian klik Edit."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/android_studio_5"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Maka akan terbuka window baru yaitu Edit System Variable. Arahkan kursor pada box bagian Variable Value dan arahkan kursor kebagian paling kanan. Tambahkan titik koma (;) dan Paste alamat lokasi folder JDK yang telah kita Copy sebelumnya dan klik OK."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/android_studio_6"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Setelah itu akan kembali ke Window Environment Variables dan klik OK, setelah itu akan kembali ke windows System Properties dan klik OK kembali."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

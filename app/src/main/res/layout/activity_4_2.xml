@@ -1,9 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_4_2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="02 Install Android Studio dan Package SDK"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Untuk dapat memasang IDE Android Studio tentunya terlebih dahulu harus memiliki Aplikasi Android Studio itu sendiri. Setelah kalian selesai mengunduh IDE Android Studio, selanjutnya kita mulai memasang atau instalasi IDE tersebut, berikut ini langkah-langkahnya.
+                \n1.Buka IDE Android Studio yang telah download dengan cara klik 2 kali (double click) dan tunggu hingga verifikasi selesai.
+                \n2.Setelah jendela Android Studio Setup terbuka, selanjutnya klik Next.
+                \n3.Setelah itu akan muncul jendela baru dengan opsi komponen yang akan diinstal. Jika kalian memiliki komponen yang ada pada opsi yang tertera maka tidak perlu di checklist. Tapi jika baru pertama memasang IDE Android Studio kami sarankan lebih baik diceklis semua, setelah itu klik Next."
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/android_studio_7"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.Pada tahapan selanjutnya akan muncul jendela License Agreement, klik I Agree.
+                \n5.Setelah itu akan muncul jendela baru pemilihan untuk lokasi penyimpanan file dari software, saran kami tidak perlu merubah apapun dan langsung klik secara Default dan akan tersimpan di Direktori C:\Program Files\Android\Android Studio. Untuk SDK nya akan diinstal di direktori C:\Android\sdk."
+                android:textColor="@color/black"
+                android:textSize="10sp"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/android_studio_8"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="6.Selanjutnya klik Install.
+                \n7.Setelah proses instalasi selesai (Completed) selanjutnya klik Next. Maka akan muncul Jendela dengan keterangan Completing Android Studio Setup. Biarkan pilihan Start Android Studio tetap dalam kondisi default atau terceklis dan klik Finish.
+                \n8.Setelah itu akan muncul jendela baru dengan 2 opsi pilihan. Checklist opsi kedua jika kalian belum pernah menginstal IDE Android Studio dan klik OK."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/android_studio_9"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="\n9.Maka selanjutnya kalian akan disambut oleh Android Studio dengan munculnya jendela WELCOME dan klik Next."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/android_studio_10"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="10.Selanjutnya pilih Standard dan klik Next.
+                \n11.Setelah itu akan muncul jendela SDK Component Setup. Pilih component yang ingin anda Install / Update klik saja Next.
+                \n12.Setelah itu klik Finish.
+                \n13.Maka akan tampil jendela Downloading Component, tunggu hingga proses download Selesai.
+                \n14.Setelah proses download selesai maka proses instalasi Android Studio telah selesai. Klik Finish."
+                android:textSize="10sp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

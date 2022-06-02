@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/whitef7"
     tools:context=".Activity_1">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="ini materi pengenalan python"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.1 Sejarah Python"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="15sp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="\nBahasa pemrograman Python dibuat oleh Guido Van Rossum diawal tahun 1990. Guio Van Rossum merupakan seorang programmer asal Belanda. Python pertama kali dibuat di Centrum Wiskunde Informatica (CWI) di Negara Belanda. Python bukanlah nama ular, Guido menamai bahasa pemrograman buatannya Python karena dia adalah fans dari grup komedi Monty Python Flying Circus yang berasal dari Inggris. Pembuatan Python dilanjutkan pada tahun 1995 di Corporation for National Research Iniative (CNRI) yang terletak di Virginia Amerika. Guido dan tim python kemudian pindah ke BeOpen.com pada bulan Mei 2000, mereka membentuk tim BeOpen PythonLabs.
+                Kemudian tim Python pindah ke Digital Creation (sekarang Zope Corporation) pada bulan Oktober 2000.
+                \n\nOrganisasi Python Software Foundation (PSF) dibentuk pada tahun 2001. Tentunya organisasi ini memiliki misi yang luar biasa untuk bahasa pemrograman Python. Misinya adalah melindungi, mempromosikan, melinungi, membuat kemajuan pada bahasa pemrograman Python, dan mendukung serta memfasilitasi pertumbuhan komunitas developer Python internasional dan ada bermacam - macam."
+                android:textColor="@color/black"
+                android:textSize="11sp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

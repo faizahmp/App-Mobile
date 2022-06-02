@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_1_4">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="40dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.1 Fungsi Rekursif"
+                android:textSize="15sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="\nDi dalam dunia pemrograman, fungsi rekursif merupakan sebuah metode perulangan yang bersifat non-iterasi. Sebenarnya fungsi rekursif hanyalah sebuah fungsi biasa seperti fungsi def pada umumnya. Dia bisa dipanggil, bisa menerima parameter, bisa mengembalikan nilai, dan lain sebagainya. Hanya saja, sesuai namanya, fungsi rekursif itu bersifat rekursi. Kenapa? Karena ia memanggil dirinya sendiri sehingga menimbulkan efek perulangan. Perulangan ini bisa berhenti ketika kondisi tertentu tercapai, atau bisa juga bersifat tak terbatas, atau mungkin bahkan bisa menimbulkan error karena pemanggilan fungsi yang tak ada habisnya.">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="4.1.1 Membuat Fungsi Rekursif"
+                android:textSize="15sp"
+                android:paddingTop="14dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="\nFungsi rekursif adalah fungsi yang memanggil dirinya sendiri. Jadi contoh paling sederhanya bisa terlihat seperti berikut:">
+            </TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_4_1_1"
+                android:layout_marginTop="-44dp">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

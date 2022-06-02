@@ -1,9 +1,574 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_1_3">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="40dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.1 Percabangan IF"
+                android:textSize="15sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="\nStruktur if ini digunakan untuk menentukan satu pilihan keputusan di eksekusi jika kondisi memenuhi syarat dari pilihan keputusan tersebut.">
+            </TextView>
+            <TextView
+                android:paddingTop="14dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Studi Kasus">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:text="\nBuatlah program untuk menentukan kelulusan berdasarkan minimal nilai 75, jika nilai sama dengan atau lebih dari 75 beri keterangan lulus.">
+            </TextView>
+            <TextView
+                android:paddingTop="14dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Python Program">
+            </TextView>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python_3_1_1"
+                android:layout_marginTop="-10dp">
+            </ImageView>
+            <TextView
+                android:layout_marginTop="-10dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penjelasan">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="14dp"
+                android:text="Pada program python diatas memiliki variable “nilai” yang dimana terdapat pernyataan int dan input yang artiannya int (integer/atau satuan angka bilangan bulat), kemudian input (memasukkan nilai).
+                \n\nYang kemudian jika kondisi variabel nilai ini memenuhi kondisi percabangan if atau lebih dari sama dengan 75 maka, akan menjalankan statement if tersebut. Jika kondisi tidak terpenuhi program akan error.
+                "
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="3.1.2 Percabangan IF Else"
+                android:paddingTop="14dp"
+                android:textSize="15sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nPenggunaan struktur percabangan if else pada python digunakan untuk menentukan pilihan dua kondisi benar dan salah, yang artinya program akan mengeksekusi benar jika kondisi yang di masukkan benar juga dan sebaliknya."
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <TextView
+                android:paddingTop="14dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Studi Kasus">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBuatlah program untuk menentukan anak-anak yang masih dibawah umur untuk memiliki pendamping saat bermain di taman bermain, minimal umur anak yang wajib didampingi dari mulai 0-10 tahun."
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins">
+            </TextView>
+            <TextView
+                android:paddingTop="14dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Python Program">
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/python_3_1_2_1">
+            </ImageView>
+            <TextView
+                android:layout_marginTop="-5dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penjelasan">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nUntuk masuk ke taman bermain pengunjung harus di data terlebih dahulu untuk mengantisipasi atau memudahkan petugas untuk mengidentifikasi pengunjung, data tersebut berupa nama dan umur.
+\n\nKarena ada batasan umur, yang dimana umur 10 tahun kebwah diwajibkan memiliki pendamping saat memasuki taman bermain, maka pada implementasi program python, variabel umur menjadi parameter untuk menentukan keputusan.
+\n\nKeputusan pertama atau if (jika), umur (variabel) sama dengan atau kurang dari 10 diberikan lanjutan input pendamping dan inputan kontak pendamping.
+\n\nElse jika tidak seperti kondisi if diatas cukup print atau menampilkan data variabel dari nama dan umur.
+"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="10sp">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="3.1.3 Percabangan IF Elif Else"
+            android:paddingTop="14dp"
+            android:textSize="15sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nStruktur percabangan ini biasa digunakan jika program python memimiliki banyak kondisi yang artianya dari banyaknya kondisi tersebut akan ada satu yang diputuskan atau di pilih, dengan menyesuaikannya."
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp">
+        </TextView>
+        <TextView
+            android:paddingTop="14dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Studi Kasus">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nBuatlah program python dengan menggunakan struktur branching atau percabangan untuk menentukan grade kelulusan mahasiswa dari mata kuliah dengan ketentuan jika grade A s/d C dinyatakan lulus selain itu tidak lulus.
+            \n\nTabel Nilai Akhir (NA)"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp">
+        </TextView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/python_3_1_3_1">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nInput: Nim, Nama Mahasiswa, Mata Kuliah, Nilai Absensi, Nilai Tugas, Nilai UTS, Nilai UAS Proses: Nilai Akhir = 20% absensi + 25% tugas + 25% UTS + 30% UAS Output:Nim, Nama Mahasiswa, Mata Kuliah, Nilai Akhir dan Grade"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins">
+        </TextView>
+        <TextView
+            android:paddingTop="14dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Python Program">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/python_3_1_3_2">
+        </ImageView>
+        <TextView
+            android:layout_marginTop="-5dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penjelasan">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nTentu untuk tahapan pertama dari implementasi studi kasus diatas ke program python ialah membuat pengambilan nilai variabel dengan fungsi input.
+            \n\nKemudian pada bagian penggabungan persentase nilai ini menggunakan proses aritmatika yaitu jumlah nilai x persentase, kemudian jumlah dari perkalian tersebut di jumlahkan dan di dapatkan nilai akhir.
+            \n\nDari hasil nilai akhir inilah yang menjadi parameter percabangan if elif else dalam program python ini untuk menentukan grade dari nilai akhir tersebut.
+            "
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="3.2. Perulangan"
+            android:textSize="15sp"
+            android:paddingTop="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="3.2.1 Perulangan For"
+            android:textSize="15sp"
+            android:paddingTop="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nPerulangan for pada python adalah perintah yang digunakan untuk melakukan iterasi dari sebuah nilai sequence atau data koleksi pada python seperti List, Tuple, String dan lain-lain.
+            \n\nFor pada python memiliki perilaku yang berbeda dengan for pada kebanyakan bahasa pemrograman yang lain, karena pada python ia sangat berkaitan dengan data sequence atau data kolektif. Mungkin kalau dibandingkan dengan bahasa lain, for pada python lebih dikenal sebagai foreach."
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp">
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nSyntax For">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:textSize="10sp"
+            android:text="\nJadi, ada 3 bagian penting.
+/n1. sequence: adalah sebuah nilai yang bersifat iterable alias bisa diulang-ulang.
+Di antara tipe data yang bersifat sequence atau iterable adalah:
+    - list
+    - tuple
+    - string
+    - dan lain sebagainya
+/n2. nilai: adalah setiap item yang diekstrak dari sequence
+/n3. Blok kode: yaitu statemen-statemen atau perintah-perintah tertentu yang akan dieksekusi secara berulang.
+"
+            android:textColor="@color/black">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="3.2.2 For dengan list"
+            android:textSize="15sp"
+            android:paddingTop="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nLangsung saja ke contoh dan praktik.
+                \n\nBuka tools kalian, lalu buat sebuah variabel dengan tipe data list.
+                \n\nSetelah itu kita akan menampilkan tiap item dari list yang telah kita buat.
+                \n\nPerhatikan contoh berikut:
+                "
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="10sp">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_2_1">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jika dieksekusi, program di atas akan menghasilkan output:"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="10sp">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_2_2"
+            android:layout_marginTop="14dp">
+        </ImageView>
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nMengetahui urutan iterasi for dengan list">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:textSize="10sp"
+            android:text="\nUntuk mengetahui urutan iterasi for dengan list, kita bisa menggunakan fungsi enumerate.
+\n\nFungsi tersebut akan mengekstrak 2 buah nilai:
+\n1. yang pertama adalah index: yaitu urutan iterasi yang ke berapa
+\n2. dan item yang mana itu adalah nilai dari list itu sendiri.
+\n\nPerhatikan contoh berikut:
+"
+            android:textColor="@color/black">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_2_3">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:text="Kode program di atas sama saja seperti sebelumnya, kita hanya menambahkan fungsi enumerate() dan mem-passing variabel listKota sebagai parameter. Kita juga mengekstrak dua buah nilai yang kita kasih nama i dan kota.
+\n\nJila dijalankan, berikut adalah output yang kita dapat:
+">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_2_4"
+            android:layout_marginTop="14dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perhatikan, urutannya dimulai dari 0, bukan dari angka 1."
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="10sp"
+            android:layout_marginTop="14dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="3.2.3 For dengan fungsi range()"
+            android:textSize="15sp"
+            android:paddingTop="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nSelain dengan list, kita juga bisa menggunakan for dengan fungsi range().
+\n\nPerhatikan contoh berikut:
+"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="10sp">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_3_1">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dengan fungsi range, kita bisa melakukan perulangan dari 0, sampai kurang dari nilai range yang kita definisikan (yaitu 5 dalam contoh di atas). Sehingga hasil perulangan yang didapatkan adalah 0 sampai 4."
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="10sp">
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nKita bisa memulai range dari selain 0">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nPerhatikan contoh berikut:"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="10sp">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_3_2"
+            android:layout_marginTop="10dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perulangan di atas akan menghasilkan output:"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_3_3"
+            android:layout_marginTop="14dp">
+        </ImageView>
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nKita juga bisa mendefinisikan kelipatannya">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nPerhatikan contoh berikut:"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="10sp">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_3_4"
+            android:layout_marginTop="10dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pada contoh di atas, sistem akan melakukan perulangan dimulai dari angka 2, hingga kurang dari 12 dengan interval/kelipatan sebanyak 2.
+            \n\nHasilnya:"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:fontFamily="@font/poppins">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_3_5">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Untuk bilangan ganjil, kita mulai saja dari angka 1:"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_3_6">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oiya, nama variabel-nya tidak harus i. Bisa terserah kita."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="3.2.4 For dengan touple"
+            android:textSize="15sp"
+            android:paddingTop="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nTuple adalah di antara tipe data yang bersifat iterable, sehingga kita juga bisa memperlakukannya sebagai objek perulangan mengguankan for.
+            \n\nPerhatikan contoh di bawah:"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_4_1">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="3.2.5 Break dan continue"
+            android:textSize="15sp"
+            android:paddingTop="15dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nPada python, kita bisa menginterupsi dan juga men-skip suatu iterasi pada perulangan.
+            \n\nTerdapat 2 perintah yang bisa kita gunakan, yaitu:
+            \n· break untuk interupsi (memberhentikan paksa) sebuah perulangan
+            \n· continue untuk menskip ke iterasi selanjutnya
+            \n\nPerhatikan contoh berikut:"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="10sp">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/python_3_2_6_1">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perhatikan output di atas, pada saat i == 15, perintah print(i) tidak dieksekusi dan justru di-skip ke iterasi berikutnya."
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:fontFamily="@font/poppins">
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>
