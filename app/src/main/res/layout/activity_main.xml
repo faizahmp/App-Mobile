@@ -7,11 +7,12 @@
     android:background="@color/whitef7"
     tools:context=".MainActivity">
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-             <TextView
+            <TextView
                 android:id="@+id/txtWelcome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -22,6 +23,8 @@
                 android:text="Selamat Datang,"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
+
+
 
             <TextView
                 android:id="@+id/txtcoba"
@@ -196,5 +199,9 @@
                 android:textSize="15sp"
                 tools:layout_editor_absoluteY="114dp"
                 ></Button>
-    </LinearLayout>
+
+
+        </LinearLayout>
+
+
 </ScrollView>

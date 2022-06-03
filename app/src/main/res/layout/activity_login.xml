@@ -112,6 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
         android:background="@drawable/input_bg"
+        android:backgroundTint="@color/white"
         android:fontFamily="@font/poppins"
         android:text="Masuk"
         android:textAllCaps="false"
