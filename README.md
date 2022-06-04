@@ -1,6 +1,6 @@
 # App-Mobile
 Aplikasi Belajar Tutorial Pemrograman Berbahasa Indonesia
-sumber materi:
+\nsumber materi:
 Yusuf, M. (2016). Cara Install JDK (Java Development Kit). Koding Indonesia. https://www.kodingindonesia.com/cara-install-jdk/.
 Yusuf, M. (2016). Install Android Studio dan Package SDK – Android. Koding Indonesia. https://www.kodingindonesia.com/cara-install-jdk/.
 Yusuf, M. (2016). Membuat Project dan Struktur Folder. Koding Indonesia. https://www.kodingindonesia.com/cara-install-jdk/.
